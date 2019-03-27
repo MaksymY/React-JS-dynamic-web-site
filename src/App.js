@@ -43,10 +43,12 @@ class App extends Component {
         <div className='cards'>
           <div className='card'>
             { cards }
-          </div>
+            </div>
         </div>
-        {this.ajouterRecette}
-        <Admin chargerExemple={this.chargerExemple} />
+        
+        <Admin 
+        ajouterRecette={this.ajouterRecette}
+        chargerExemple={this.chargerExemple} />
       </div>
     )
   }
