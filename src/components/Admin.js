@@ -15,6 +15,7 @@ class Admin extends Component {
                     key={key}
                     id={key}
                     majRecette={majRecette}
+                    supprimerRectte={this.supprimerRecette}
                     recettes={recettes}/>)
             }
               <footer>
